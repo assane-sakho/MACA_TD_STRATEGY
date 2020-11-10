@@ -1,2 +1,5 @@
-package api.deplacement;public interface Deplacement {
+package api.deplacement;
+
+public interface Deplacement {
+    void deplacer();
 }

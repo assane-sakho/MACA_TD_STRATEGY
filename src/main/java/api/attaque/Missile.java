@@ -1,8 +1,8 @@
 package api.attaque;
 
-public class Mitrallette implements Attaque{
+public class Missile implements Attaque{
     @Override
     public void attaquer() {
-        System.out.println("piou piou . . . ");
+        System.out.println("Je suis un missile et j'attaque...");
     }
 }

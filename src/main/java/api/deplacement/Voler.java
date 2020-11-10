@@ -1,8 +1,8 @@
 package api.deplacement;
 
-public class Courir implements Deplacement{
+public class Voler implements Deplacement{
     @Override
     public void deplacer() {
-        System.out.println("Je me déplace en courrant.");
+        System.out.println("Je me déplace en volant.");
     }
 }
